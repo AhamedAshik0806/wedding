@@ -47,7 +47,7 @@ export default function InvitationPage() {
                 className="mt-8"
             >
                 <a
-                    href="https://maps.app.goo.gl/H1NFj9b9VwWckJoe7"
+                    href="https://maps.app.goo.gl/NWUe8niPTVxDEvr59"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-pink-500 hover:bg-pink-600 text-white py-3 px-6 rounded-full shadow-lg transition-all"
