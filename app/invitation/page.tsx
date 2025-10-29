@@ -33,7 +33,7 @@ export default function InvitationPage() {
                     <b>Date:</b> February 1 2026
                 </p>
                 <p className="text-lg mb-2 text-gray-800">
-                    <b>Venue:</b> Crescent Convention Hall, Chennai
+                    <b>Venue:</b> Nelsear Hall, Cheranmahadevi
                 </p>
                 <p className="text-gray-600 italic">
                     “Two hearts, one soul, one love forever.”
