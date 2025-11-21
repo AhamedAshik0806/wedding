@@ -1,0 +1,181 @@
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.bismillah {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    color: var(--color-gold);
+    text-transform: uppercase;
+}
+
+.couple-names {
+    font-family: var(--font-cursive);
+    font-size: 5rem;
+    color: var(--color-gold);
+    margin: 1rem 0;
+    line-height: 1.2;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+}
+
+.ampersand {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    color: var(--color-text-light);
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.date-display {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--color-gold);
+    border-bottom: 1px solid var(--color-gold);
+    padding: 1rem 2rem;
+    letter-spacing: 2px;
+}
+
+/* Countdown Section */
+.countdown-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.countdown-title {
+    font-family: var(--font-serif);
+    color: var(--color-gold);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.timer-box {
+    background: rgba(255, 253, 208, 0.1);
+    border: 1px solid var(--color-gold);
+    padding: 1.5rem;
+    min-width: 100px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+
+.timer-value {
+    font-family: var(--font-serif);
+    font-size: 2.5rem;
+    color: var(--color-gold);
+    display: block;
+}
+
+.timer-label {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Details Section */
+.details-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.venue-card {
+    background: rgba(255, 253, 208, 0.05);
+    border: 1px solid var(--color-gold);
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    margin-top: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.venue-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--color-gold);
+}
+
+.ceremony-title {
+    font-family: var(--font-cursive);
+    font-size: 3rem;
+    color: var(--color-gold);
+    margin-bottom: 1rem;
+}
+
+.venue-name {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.venue-address {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.map-button {
+    display: inline-block;
+    background: var(--color-gold);
+    color: var(--color-green);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 2px solid var(--color-gold);
+}
+
+.map-button:hover {
+    background: transparent;
+    color: var(--color-gold);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 175, 55, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .couple-names {
+        font-size: 3.5rem;
+    }
+
+    .timer-container {
+        gap: 1rem;
+    }
+
+    .timer-box {
+        min-width: 80px;
+        padding: 1rem;
+    }
+
+    .timer-value {
+        font-size: 1.8rem;
+    }
+}
