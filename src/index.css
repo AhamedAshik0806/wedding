@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Outfit:wght@300;400;600&family=Scheherazade+New:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&family=Scheherazade+New:wght@400;700&display=swap');
 
 :root {
   --color-gold: #C5A059;
@@ -10,7 +10,7 @@
   --color-text-light: #FDFBF7;
   --color-text-dark: #4A4A4A;
   /* Dark grey/brown for text */
-  --font-cursive: 'Great Vibes', cursive;
+  --font-cursive: 'Alex Brush', cursive;
   --font-serif: 'Cinzel', serif;
   --font-body: 'Outfit', sans-serif;
 }
