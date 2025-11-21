@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Outfit:wght@300;400;600&family=Scheherazade+New:wght@400;700&display=swap');
 
 :root {
-  --color-gold: #D4AF37;
-  --color-green: #043927;
-  --color-cream: #FFFDD0;
-  --color-text-light: #FFFDD0;
-  --color-text-dark: #043927;
+  --color-gold: #C5A059;
+  /* More muted, elegant gold */
+  --color-green: #556B2F;
+  /* Sage/Olive green for accents */
+  --color-cream: #FDFBF7;
+  /* Very light cream/off-white */
+  --color-text-light: #FDFBF7;
+  --color-text-dark: #4A4A4A;
+  /* Dark grey/brown for text */
   --font-cursive: 'Great Vibes', cursive;
   --font-serif: 'Cinzel', serif;
   --font-body: 'Outfit', sans-serif;
@@ -18,16 +22,22 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--color-green);
-  color: var(--color-text-light);
+  background-color: var(--color-cream);
+  color: var(--color-text-dark);
   font-family: var(--font-body);
   overflow-x: hidden;
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif);
   margin: 0;
+  color: var(--color-gold);
 }
 
 a {
@@ -41,7 +51,30 @@ a {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-image: radial-gradient(circle at center, #064e36 0%, #043927 100%);
+  background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Overlay for better text readability if needed */
+.app-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 0;
+}
+
+/* Ensure content is above the overlay */
+.app-container>* {
+  position: relative;
+  z-index: 1;
 }
 
 .footer {
