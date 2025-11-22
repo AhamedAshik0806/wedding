@@ -19,7 +19,7 @@ const Hero = () => {
 
             <div data-aos="zoom-in" data-aos-duration="2000">
                 <h1 className="couple-names">
-                    Asshik
+                    Ashik
                     <FaHeart className="heart-icon" />
                     Firthoush
                 </h1>
