@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Envelope Body -->
+  <rect x="8" y="16" width="48" height="32" rx="4" fill="#FFC107" />
+  <path d="M8 16 L32 36 L56 16" fill="#FFD54F" />
+  <path d="M8 48 L24 32" stroke="#FFA000" stroke-width="2" />
+  <path d="M56 48 L40 32" stroke="#FFA000" stroke-width="2" />
+  
+  <!-- Heart Seal -->
+  <path d="M32 36 C28 32 24 34 24 38 C24 43 32 48 32 48 C32 48 40 43 40 38 C40 34 36 32 32 36 Z" fill="#E91E63" />
+  
+  <!-- Surprise/Confetti -->
+  <circle cx="6" cy="10" r="2" fill="#2196F3" />
+  <circle cx="58" cy="10" r="2" fill="#4CAF50" />
+  <circle cx="4" cy="30" r="1.5" fill="#9C27B0" />
+  <circle cx="60" cy="30" r="1.5" fill="#FF5722" />
+  <path d="M10 6 L14 10" stroke="#00BCD4" stroke-width="2" stroke-linecap="round" />
+  <path d="M54 6 L50 10" stroke="#FFEB3B" stroke-width="2" stroke-linecap="round" />
+</svg>
